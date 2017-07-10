@@ -4,6 +4,7 @@ library reddit;
 import "dart:async";
 import "dart:collection";
 import "dart:convert";
+import "dart:mirrors";
 
 import "package:http/http.dart";
 import "package:logging/logging.dart";
